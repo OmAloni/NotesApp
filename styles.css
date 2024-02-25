@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#a774cd,#5593cc);
+    padding-bottom: 1rem;
+}
+
+.notes{
+    display: flex;
+    padding-top: 4rem;
+    padding-left: 5rem;
+    align-items: center;
+}
+.notes h1{
+    color: white;
+    font-size: 2rem;
+    padding-left: 0.5rem;
+}
+.notes img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.btn{
+    padding: 2rem 0 0 5.5rem;
+ 
+}
+
+.btn button{
+
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    background: linear-gradient(#a842f6,#3d3565);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    text-align: center;
+
+}
+.btn img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+.edit{
+    padding: 2rem 0 0 5.8rem;
+    min-height: 60vh;
+    width: 80vh;
+
+    
+}
+
+.box{
+    height: 12rem;
+    width: 100%;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    position: relative;
+    margin: 1rem 0 0 1rem;
+    padding: 1rem 0 0 2rem;
+    
+
+}
+
+.edit p img{
+    position: absolute;
+    height: 1.2rem;
+    width: 1.4rem;
+    right: 10px;
+    bottom: 15px;
+}
+.edit p img:hover{
+    transform: scale(1.2);
+}
